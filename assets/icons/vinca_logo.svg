@@ -1,0 +1,8 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="150" height="150" rx="30" fill="#A2DBEE"/>
+<rect x="5" y="5" width="140" height="140" rx="30" fill="black"/>
+<rect x="68.8691" y="146.643" width="5" height="128.44" transform="rotate(150 68.8691 146.643)" fill="#A2DBEE"/>
+<rect x="89.3809" y="140.455" width="5" height="153.877" transform="rotate(150 89.3809 140.455)" fill="#A2DBEE"/>
+<rect width="5" height="129.288" transform="matrix(0.866025 0.5 0.5 -0.866025 80.8242 147.016)" fill="#A2DBEE"/>
+<rect width="5" height="127.835" transform="matrix(0.866025 0.5 0.5 -0.866025 72.8477 119.115)" fill="#A2DBEE"/>
+</svg>
