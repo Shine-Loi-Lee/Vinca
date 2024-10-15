@@ -1,5 +1,5 @@
 <p align="center">
- <img align="center" src="" height="96" />
+ <img align="center" src="assets/icons/vinca_logo.svg" height="96" />
  <h1 align="center">
   Vinca: A Collection of Tender Recollections
  </h1>
