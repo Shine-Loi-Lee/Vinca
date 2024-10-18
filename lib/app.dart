@@ -1,5 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:vinca/localization_warapper.dart';
 import 'package:vinca/screens/home_screen.dart';
 
@@ -11,8 +12,10 @@ class VincaApp extends StatelessWidget {
     await EasyLocalization.ensureInitialized();
 
     runApp(
-      localizationWrapper(
-        child: const VincaApp(),
+      ProviderScope(
+        child: localizationWrapper(
+          child: const VincaApp(),
+        ),
       ),
     );
   }

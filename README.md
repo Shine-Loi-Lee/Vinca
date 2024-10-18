@@ -5,12 +5,20 @@
  </h1>
 </p>
 
-Vinca is a photo editing application to create a collage based on maps. Users can crop photos according to regional borders, and combining them into a single image. Vinca is designed fot those who want to preserve memories connected to places.
+Vinca is a photo editing application that allow users to create collages based on maps. Users can crop photos according to regional borders, and combine them into a single image. Vinca is designed for those who want to preserve memories connected to places.
 
 # Features
-* **Map-based photo editing**: Crop and merge your photos to make a awesome geographical collage.
-* **Collage creation**: 
-* **Supported languages**: English, Korean
+* **Map-based Photo Editing**
+    * **Search Maps**: You can search for the location you want on the map.
+    * **Bring Regional Borders**: Import regional borders as polygons from Google Maps.
+    * **Crop Images**: Crop images based on the regional borders.
+
+* **Collage Creation**
+    * **Photo Preview**: Preview the selected photo.
+    * **Save Your Work**: Save your work progress locally.
+
+* **Additional Features**
+    * **Supported Languages**: English, Korean
 
 <!--
 # Screenshots
@@ -29,8 +37,13 @@ Vinca is a photo editing application to create a collage based on maps. Users ca
     - [ ] Spanish
 -->
 
-# Contributors
-1) Shine Loi Lee
+<!--
+# Contributing
+
+-->
+
+# Author
+**Shine Loi Lee**: Project founder
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.

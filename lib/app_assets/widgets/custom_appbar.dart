@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:vinca/app_assets/asset_icons.dart';
+import 'package:vinca/screens/settings/setting_main.dart';
 
 class VincaAppBar extends StatelessWidget implements PreferredSizeWidget {
   const VincaAppBar({super.key});
@@ -16,7 +17,7 @@ class VincaAppBar extends StatelessWidget implements PreferredSizeWidget {
       title: Row(
         children: [
           Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: EdgeInsets.all(0.009 * screenHeight),
             child: SvgPicture.asset(
               AppIcons.vincaLogo,
               width: 0.029 * screenHeight,
@@ -31,7 +32,10 @@ class VincaAppBar extends StatelessWidget implements PreferredSizeWidget {
             ),
             iconSize: 0.029 * screenHeight,
             onPressed: () {
-              //
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const SettingMain()),
+              );
             },
           ),
         ],
